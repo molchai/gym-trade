@@ -1,2 +1,2 @@
 # gym-trade
-rl env
+rl env based on gym
