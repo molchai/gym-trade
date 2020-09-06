@@ -35,10 +35,6 @@ class TradingEnv(gym.Env):
         self._position = None
         self._last_position = None
 
-    def seed(self, seed=None):
-        self.np_random, seed = seeding.np_random(seed)
-        return [seed]
-
     def reset(self):
         #epodisode intializaton
         self._stock=np.random.choice(self.codes)
